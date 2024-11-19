@@ -8,12 +8,18 @@ const audioGameOver = new Audio('images/audio_gameover.mp3')
 
 audio.play()
 
+
+
 const jump = () => {
     mario.classList.add('jump');
 
     setTimeout(() => {
         mario.classList.remove('jump');
     }, 500);
+}
+
+const incrementScore = () => {
+    score.innerText = +score.innerText + 10
 }
 
 const loop = setInterval (() => {
