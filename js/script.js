@@ -3,6 +3,7 @@ const mario = document.querySelector('.mario');
 const pipe = document.querySelector('.pipe');
 const menu = document.querySelector(".menu-screen")
 const audio = new Audio('images/audio_theme.mp3')
+const score = document.querySelector(".score--value")
 const audioGameOver = new Audio('images/audio_gameover.mp3')
 
 audio.play()
