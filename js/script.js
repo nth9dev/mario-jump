@@ -51,6 +51,12 @@ const loop = setInterval (() => {
 
 }, 10)
 
+const checkJump = () => {
+    const head = mario[mario.jump - 1]
+
+    if(jump.180px == jump.0px) {
+        incrementScore()
+
 const GameOver = () => {
     direction = undefined
     menu.style.display = "flex"
